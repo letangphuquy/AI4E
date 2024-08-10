@@ -1,0 +1,11 @@
+Nguyễn Phi Lê:
+
+Nhân tiện hôm qua cô có nói về OCR, bạn nào mà muốn tìm hiểu thêm, các em có thể thử dùng API của ChatGPT để giải quyết bài toán OCR nhé
+cách 1: tạo 1 prompt yêu cầu GPT trích xuất text 
+cách 2 (advanced hơn): tạo promt, đưa thêm ví dụ của các ảnh với cấu trúc tương tự, yêu cầu GPT trích xuất thông tin theo template như trong ví dụ
+các em thử nhé
+thử với ảnh tiếng anh, ảnh tiếng Việt
+xem kết quả thế nào nhe
+
+Bài tập (nâng cao):
+- Thực hành áp dụng Gabor Filter

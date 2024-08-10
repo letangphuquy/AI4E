@@ -1,0 +1,14 @@
+Deadline gần của khóa AI for Engineer:
+- Brother code:
+	+ bài cá nhân nên trao đổi, chia sẻ solution để làm nhanh hơn
+	+ bài tập nhóm, project sẽ có phân công hợp lý, chia đều phần việc cho các thành viên. khi mọi người đều thống nhất với công việc được giao thì nhóm sẽ tiến hành cùng làm, support và cover lẫn nhau, cố gắng trao đổi, hỏi nhiều "tăng tương tác" (ý là hỏi ngu ko bị decao đâu)
+
+- Bài tập thực hành mỗi buổi: deadline 1 tuần
+	. CV Practice số 1: Gabor Filtering (làm cá nhân)
+		bài này test độ hiểu bài của mình thôi. Mấy bạn có thể xem project 2 anh làm của khóa AI Beginner để hình dung hơn. 
+
+	. CV project 1: Image classification (nhóm)
+		này sẽ có kế hoạch và phân công khi ae mình ngồi họp đông đủ nhé
+
+	. ML Practice 1: Thu thập dữ liệu (làm cá nhân) (nên support)
+		yêu cầu của bài này là ứng dụng các kiến thức như anh trợ giảng Đức đẹp trai làm để crawl data từ 2 báo khác và lưu về cùng format như vnexpress (file .json). Sau đó thêm một đoạn code tổng hợp lại data từ cả 3 nguồn vào 1 file .json duy nhất		
