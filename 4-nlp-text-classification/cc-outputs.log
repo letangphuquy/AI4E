@@ -1,0 +1,29 @@
+2024-08-11 13:40:41,587 : 
+---------------------------
+----------[START]----------
+---------------------------
+2024-08-11 13:40:41,588 : [OK]   en_US Detected as a supported Language
+2024-08-11 13:40:41,589 : [NOT]  convert magic commands
+2024-08-11 13:40:41,589 : [NOT]  commenting out unsupported magic commands
+2024-08-11 13:40:41,590 : [NOT]  keeping new imports made by converter
+2024-08-11 13:40:41,590 : [NOT]  showing outputs from converter
+2024-08-11 13:41:14,077 : 
+---------------------------
+----------[START]----------
+---------------------------
+2024-08-11 13:41:14,078 : [OK]   en_US Detected as a supported Language
+2024-08-11 13:41:14,083 : [NOT]  convert magic commands
+2024-08-11 13:41:14,084 : [NOT]  commenting out unsupported magic commands
+2024-08-11 13:41:14,084 : [WARN] --retain-magic (-rm) is detected, new imports will NOT be made
+2024-08-11 13:41:14,085 : [NOT]  keeping new imports made by converter
+2024-08-11 13:41:14,085 : [OK]   showing outputs from converter
+2024-08-11 13:45:02,082 : 
+---------------------------
+----------[START]----------
+---------------------------
+2024-08-11 13:45:02,093 : [OK]   en_US Detected as a supported Language
+2024-08-11 13:45:02,115 : [NOT]  convert magic commands
+2024-08-11 13:45:02,130 : [NOT]  commenting out unsupported magic commands
+2024-08-11 13:45:02,131 : [WARN] --retain-magic (-rm) is detected, new imports will NOT be made
+2024-08-11 13:45:02,133 : [NOT]  keeping new imports made by converter
+2024-08-11 13:45:02,133 : [OK]   showing outputs from converter
