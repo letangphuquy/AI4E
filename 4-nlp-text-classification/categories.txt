@@ -1,0 +1,12 @@
+1 Chính trị
+2 Xã hội
+3 Kinh tế
+4 Văn hóa
+5 Sức khỏe
+6 Pháp luật
+7 Thế giới
+8 KHCN
+9 Thể thao
+10 Giải trí
+11 Du lịch
+12 Giáo dục

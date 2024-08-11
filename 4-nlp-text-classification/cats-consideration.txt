@@ -1,0 +1,41 @@
+Chính Trị: luật pháp, ngoại giao, đảng, kỷ niệm, đại hội, ...
+/Tuần Việt Nam
+Thời sự: Tin hình sự, vụ án nghiêm trọng (xe tông, thiên tai, tham nhũng?, ...
+Kinh tế: thị trường, tài chính, ....
+/BĐS
+Thể thao: banh bóng, Olympic, Euro, ...
+Thế giới: (tại vietnamnet là chính trị - thời sự)
+Giáo dục (có AI gây Hallucination ở vietnamnet)
+Giải trí: minh tinh, hoa hậu, ca sĩ - diễn viên, ..
+Văn hóa: Nghệ thuật - điện ảnh + Văn hóa lịch sử
+  Đời sống: slice of Life, miscs, (có Tâm sự?)
+  Sức khỏe
+Thông tin và truyền thông: CNTT
+Công nghiệp
+Pháp luật: thời sự
+Xã hội:
+/Du lịch
+******************
+Danh sách bỏ qua: Ô tô xe máy, Nội dung chuyên đề (khó), Góc nhìn (quá đa dạng), Giảm nghèo bền vững (subdomain)
+Final list:
+Chính trị
+ . vnn/tuan-viet-nam
+Pháp luật
+Thời sự
+Thế giới
+ . vnn/the-gioi, vne/the-gioi
+Kinh tế
+  Kinh doanh, Bất động sản, vnn/thi-truong-tieu-dung, dantri/viec-lam
+Văn hóa
+Xã hội
+ . vnn/dan-toc-ton-giao, vnn/nong-thon-moi, vnn/dan-toc-thieu-so-va-mien-nui, vnn/noi-dung-chuyen-de, dantri/an-sinh
+Giáo dục
+Sức khỏe - Y tế
+Đời sống - Người dân
+ . vnn/ban-doc, vnn/bao-ve-nguoi-tieu-dung, vne/doi-song, dantri/nhan-ai, vnn/nong-thon-moi, vnn/noi-dung-chuyen-de
+Khoa học công nghệ
+ . vnn/thong-tin-truyen-thong, vnn/cong-nghiep-ho-tro, vne/khoa-hoc, vne/so-hoa, dantri/suc-manh-so
+Thể thao
+Giải trí (bao gồm Du lịch)
+ . vnn/du-lich
+Xe
