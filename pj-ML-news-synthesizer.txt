@@ -1,0 +1,45 @@
+Phân tích & Xác định yêu cầu - Các đầu việc cần làm
+___
+Làm gì?: học trên tập corpus và thể loại đã được gán nhãn bởi biên tập viên
+Mục tiêu:
+- phân loại một bài báo chưa có nhãn?	
+- phân cụm để phát hiện chủ đề?
+	
+Nội dung cụ thể???
+- biểu diễn, vector hóa văn bản như thế nào?
+- thuật toán ML cho phân loại
+- thuật toán nào cho phân cụm?
+- so sánh, thống kê 
+
+thiết kế CSDL:
+- lưu thông tin bài báo từ 3 nguồn sau trích xuất
+- lưu biểu diễn TFxIDF vào tập từ điển
+- lưu kết quả thí nghiệm (chạy mô hình) vào cơ sở dữ liệu
+
+kết quả thí nghiệm cần quan tâm
+- bài toán phân loại: so sánh performance của 4 thuật toán SVM, Naïve Bayes, CNN, LSTM
+- bài toán phân cụm:
+	+ xét hai cách biểu diễn: SBERT và TFxIDF
+	+ xét hai thuật toán: k-means và HAC
+	-> có 4 kết quả cần lưu ý
+- tiêu chí đánh giá: accuracy, F1. purity, npmi
+
+PHƯƠNG ÁN
+___
+Tạo branch từ code tổng hợp dữ liệu của anh trên Github (đã xong tới bước 2). Kiệt, Lực join vào repo (quyền push)
+Hai bạn Kiệt, Lực làm giúp anh:
+- Thiết kế database schema để lưu thông tin theo những yêu cầu trên sao cho hợp lý (gửi lại anh xem với nhé)
+- Đẩy data trong 3 file vnexpress_processed.json, .. (đã crawl sẵn rồi, anh em mình ko cần crawl lại) lên database (nếu được nhớ share quyền, key để anh vào DB nghía chung nhé)
+	đồng thời cũng có code để truy vấn data thông tin bài báo nhé
+- Thực hiện bước tiền xử lý dữ liệu TFxIDF rồi gửi code/biểu diễn cho Trí nhé.
+Trí thì sẽ cần phải:
+- Bắt đầu từ file thực hành của TAs (https://colab.research.google.com/drive/1qXhDXZulY-jQmnqQRL-ibHvSlOQMCH0k) cộng với file BTVN đã làm xong của anh (https://github.com/letangphuquy/AI4E/blob/master/4-nlp-text-classification/th%E1%BB%B1c_h%C3%A0nh_ph%C3%A2n_lo%E1%BA%A1i_tin_t%E1%BB%A9c_(cnn%2C_rnn%2C_lstm).ipynb) để tìm hiểu code các mô hình theo yêu cầu.
+- Vì mình sẽ làm song song, nên tạm thời em cứ lấy link từ data của anh trợ giảng (nmquang), chưa cần lấy từ data anh cào được. Sau khi bên Kiệt, Lực làm xong thì mình thay data sau.
+- TFxIDF thì code cũng dễ nên em cũng có thể làm không phụ thuộc vào database
+Anh Quý sẽ hỗ trợ phần train SBERT trên máy local nếu cần
+	- nhớ share file colab để anh code chung. có thể meet để code chung cũng được.
+_______
+Thảo luận & dặn dò thêm
+Nhớ dùng pytorch nhé cả nhà
+Chắc kỳ này không làm được yêu cầu nâng cao đâu. Mình còn một project RAG-LLM với một cái CV nâng cao nữa.
+Kiệt Lực: phần API call và tương tác để thành một hệ thống liền mạch, thống nhất với nhau chắc mình chưa kịp làm. Nhưng nếu còn dư thời gian mấy bạn có thể xem clean lại giúp anh mấy file code với làm thành một web server nếu được nhé (mà anh nghĩ mình đang gấp deadline nên chưa cần)
